@@ -1,0 +1,10 @@
+---
+applications:
+- name: kwonheekyung-myadmin
+  memory: 512M
+  host: kwonheekyung-myadmin
+  domain: paas-ta.org
+  services:
+  - kwonheekyung-mysql-db
+  instances: 1
+  disk_quota: 512M
